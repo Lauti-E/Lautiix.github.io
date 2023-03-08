@@ -1,0 +1,156 @@
+/**Configuración de la imágen*/ 
+#imgCircular{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    border: 3px solid cadetblue;
+}
+
+/**Configuración de los botones de E-mail*/
+#botonEmail, #ocultarEmail{
+    height: 30px;
+    margin: 30px;
+    margin-top: 10px;
+    border-color:cadetblue;
+}
+
+/**Configuración de texto del E-mail*/
+#demo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    color:black;
+}
+
+/**Configuración icono torta*/
+#torta{
+    margin-left: 20px;
+}
+
+/**Configuración icono E-mail*/
+#iconDireccion{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/**Configuración de texto de la dirección*/
+#direccion{
+    font-size: 15px;
+}
+
+/**Configuración botón ocultar dirección*/
+#ocultarDireccion{
+    border-color: cadetblue;
+    margin-left: 20px;
+}
+
+/**Aclaración de la dirección*/
+#aclaracion{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+/**Configuración icono teléfono*/
+#iconTelefono{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+/**Configuración número de teléfono*/
+#numTelefono{
+    margin-left: 55px;
+    margin-top: -15px;
+}
+
+/**Configuración general del body HTML*/
+body{
+    background-color:antiquewhite;
+}
+
+/**Configuración general de span*/
+span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/**Configuración general de p*/
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/**Configuración de los textos Nombre y de Apellido*/
+.nombreYapellido1{
+    margin: 20px;
+    margin-right: 5px;
+    font-size: 20px;
+    border-style: ridge;
+    border-color:cadetblue;
+}
+
+/**Configuración del nombre y el apellido*/
+.nombreYapellido2{
+    font-size: 20px;
+    font-weight: 200;
+    color:black;
+}
+
+/**Configuración de información personal y contacto*/
+#infPersonal, #contacto, .iconCheck, .iconCheck2{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 25px;
+}
+
+/**Configuración del hr*/
+#lineaIzq{
+    width: 24%;
+}
+#lineaDer{
+    width: 24%;
+}
+
+/**Configuración icono código*/
+.iconCheck{
+    position: relative;
+}
+
+/**Configuración texto a la derecha*/
+.infoCode{
+    position: absolute;
+    padding: 10px;
+    right: 1px;
+}
+.infoForm{
+    font-family: 'Tilt Prism', cursive;
+    position: absolute;
+    padding-right: 10px;
+    padding-top: 300px;
+    right: 1px;
+}
+
+/**Configuración tipografía de lista*/
+.lista{
+    font-family: 'Shantell Sans', cursive;
+}
+
+/**Configuración de la tabla*/
+.tabla{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -450px;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+
+.perfProf{
+    font-family: 'Courgette', cursive;
+}

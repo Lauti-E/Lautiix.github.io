@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Integrador</title>
+    
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    
+    <!--Icono de la página-->
+    <link rel="shortcut icon" href="/Icon.ico" />
+    
+    <!--Fuentes para tipografía e íconos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans:wght@200&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Imagen de perfil, junto con icono, nombre y apellido-->
+    <img src="Foto.jpg" id="imgCircular" />
+    <br><br>
+
+    <!--Lista de conocimientos en programación-->
+    <div class="infoCode">
+        <div class="iconCheck">
+            <span class="fa-solid fa-code"></span>
+            <label style="font-size: 20px;">Conocimientos en programación:</label>
+        </div>
+        <ul>
+            <div>
+                <li class="lista">Manejo de lenguaje JavaScript.</li>
+                <i class="fa-brands fa-js"></i>
+            </div>
+            <div>
+                <li class="lista">Manejo de lenguaje Java.</li>
+                <i class="fa-brands fa-java"></i>
+            </div>
+            <div>
+                <li class="lista">Manejo de lenguaje Python.</li>
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <div>
+                <li class="lista">Experiencia con HTML y CSS.</li>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3"></i>
+            </div>
+        </ul>
+    </div>
+
+    <!--Formación académica-->
+    <div class="iconCheck2">
+        <div class="infoForm">
+            <span class="fa-solid fa-graduation-cap"></span>
+            <label style="font-size: 20px;">Formación académica:</label>
+            <p>
+                Terminé la escuela media en <a href="https://www.etoncollege.com/" target="_blank">Eton College.</a><br>
+                Graduado en <a href="https://www.theoxfordacademy.org.uk/" target="_blank">Oxford Academy.</a><br>
+                Distintos cursos completados<br>
+                relacionados a la programación<br>
+                Experiencia con diversos lenguajes.
+            </p>
+        </div>
+    </div>
+
+    <!--Información personal-->
+    <span class="fa-solid fa-user"></span>
+    <span id="infPersonal">Información personal</span>
+    <br><br>
+    <span class="nombreYapellido1">Nombre:</span> <span class="nombreYapellido2">Darrell</span>
+    <br><br>
+    <span class="nombreYapellido1">Apellido:</span> <span class="nombreYapellido2">Jensen</span>
+    <br><br>
+
+    <!--Fecha de nacimiento-->
+    <p>Fecha de nacimiento: 8/6/1964</p>
+    
+    <!--Icono de ubicación para mostrar la dirección, aclaración y borón para ocultar la misma-->
+    <span class="fa-solid fa-location-dot" id="iconDireccion"></span>
+    <span id="direccion"></span>
+    <br>
+    <span id="aclaracion">(Presionar imagen para dirección)</span>
+    <br>
+    <button type="button" id="ocultarDireccion">Ocultar Dirección</button>
+
+    <hr align= "left" id="lineaIzq">
+    <hr align="right" id="lineaDer">
+
+    <!--Icono de contacto y texto-->
+    <span class="fa-solid fa-address-book"></span>
+    <span id="contacto">Contacto</span>
+
+    <!--Botones para mostrar y ocultar el E-mail e icono-->
+    <p id="demo"></p>
+    <button type="button" id="botonEmail">Ver E-mail</button>
+    <span class="fa-regular fa-envelope"></span>
+    <button type="button" id="ocultarEmail">Ocultar E-mail</button>
+    <br>
+    
+    <!--Icono de teléfono, junto con el número-->
+    <span class="fa-solid fa-phone" id="iconTelefono"></span>
+    <p id="numTelefono">(974) 710-3224</p>
+
+    <!--Perfil profesional-->
+    <table class="tabla">
+        <tr>
+            <td class="perfProf">
+                <p class="titulo">Perfil profesional</p>
+                Más de 5 años de experiencia relacionado a la programación<br>
+                utilizando diversos lenguajes, tales como:
+                <ul>
+                    <li><b>JavaScript</li>
+                    <li>Java</li>
+                    <li>C#, C/C++</li>
+                    <li>Python</li>
+                    <li>PHP</b></li>
+                </ul>
+                Me especializo en la programación web, experiencia laboral<br>
+                en empresas de desarrollo web.<br>
+                Manejo el idioma inglés y español a la perfección.<br>
+                No tengo problemas en la comunicación.<br>
+                <b>Información adicional:</b><br>
+                Tengo licencia y vehiculo para movilizarme.<br>
+                Disponibilidad horaria inmediata.
+            </td>
+        </tr>
+    </table>
+
+
+    <!--Inclución de JavaScript y página de iconos-->
+    <script src="funciones.js"></script>
+    <script src="https://kit.fontawesome.com/ccf6337c1e.js" crossorigin="anonymous"></script>
+</body>
+</html>
